@@ -1,3 +1,3 @@
 # HTML-Proben
 
-Dies ist eine Sammlung von HTML-Musterstücken (engl. HTML samples). Das HTML-Seiten kann man sich die HTML-Dateien unter [jimsy2.github.io/HTML-Proben](https://jimsy2.github.io/HTML-Proben/) anschauen.
+Die HTML-Dateien können als HTML-Seiten unter [jimsy2.github.io/HTML-Proben](https://jimsy2.github.io/HTML-Proben/) angeschaut werden.
