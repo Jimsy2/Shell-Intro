@@ -19,12 +19,9 @@ This manual was written with the intention of being a helpful guide to Linux use
 To make this manual useful to the widest range of people, I decided to release it under a free documentation license, with the hopes that people benefit from it by updating
 it and re-distributing modified copies.
 You have permission to modify and distribute this document, as specified under the terms of the GNU Free Documentation License. 
-Comments and suggestions for improvement may
-be
-directed
-to:
-vic@gedris.org
-.
+Comments and suggestions for improvement may be directed to: vic@gedris.org .
+
+
 This
 document
 was
