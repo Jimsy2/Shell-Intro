@@ -22,37 +22,8 @@ You have permission to modify and distribute this document, as specified under t
 Comments and suggestions for improvement may be directed to: vic@gedris.org .
 
 
-This
-document
-was
-created
-using
-an
-Open
-Source
-office
-application
-called
-Open
-Office
-.  The
-file
-format
-is
-non-proprietary,
-and
-the
-document
-is
-also
-published
-in
-various
-other
-formats
-online.
-Updated
-copies
+This document was created using an Open Source office application called *Open Office*. The file format is non-proprietary, and the document is also published in various other formats online.
+Updated copies
 will
 be
 available
