@@ -42,4 +42,121 @@ It is assumed that the reader has zero or very limited exposure to the Linux com
 This document is designed to accompany an instructor-led tutorial on this subject, and therefore some details have been left out.
 Explanations, practical examples, and references to DOS commands are made, where appropriate.
 
-### 1.1 What is a command shell?
+### 1.1 What is a command shell? ##
+
+The purpose of this document is to provide the reader with a fast and simple introduction to using 
+the Linux command shell and some of its basic utilities. It is assumed that the reader has zero or 
+very limited exposure to the Linux command prompt. This document is designed to accompany an 
+instructor-led tutorial on this subject, and therefore some details have been left out. Explanations, 
+practical examples, and references to DOS commands are made, where appropriate. 
+
+### 1.1 What is a command shell? ###
+
+ * A program that interprets commands 
+
+ * Allows a user to execute commands by typing them manually at a terminal, or automatically 
+   in programs called *shell scripts*. 
+
+ * A shell is not an operating system. It is a way to interface with the operating system and run 
+   commands. 
+
+### 1.2 What is BASH? ###
+
+ * BASH = Bourne Again SHell  
+
+ * Bash is a shell written as a free replacement to the standard Bourne Shell (/bin/sh) 
+originally written by Steve Bourne for UNIX systems. 
+
+ * It has all of the features of the original Bourne Shell, plus additions that make it easier to 
+program with and use from the command line. 
+
+• Since it is Free Software, it has been adopted as the default shell on most Linux systems. 
+
+1.3 How is BASH different from the DOS command prompt? 
+
+• Case Sensitivity: In Linux/UNIX, commands and filenames are case sensitive, meaning 
+
+that typing "EXIT" instead of the proper "exit" is a mistake. 
+
+• "\" vs. "/": In DOS, the forward-slash "/" is the command argument delimiter, 
+
+while the backslash "\" is a directory separator. In Linux/UNIX, the 
+"/" is the directory separator, and the "\" is an escape character. More 
+about these special characters in a minute! 
+
+• Filenames: The DOS world uses the "eight dot three" filename convention, meaning 
+
+that all files followed a format that allowed up to 8 characters in the 
+filename, followed by a period ("dot"), followed by an option extension, 
+up to 3 characters long (e.g. FILENAME . TXT). In UNIX/Linux, there is 
+no such thing as a file extension. Periods can be placed at any part of the 
+filename, and "extensions" may be interpreted differently by all 
+programs, or not at all. 
+
+
+
+1.4 Special Characters 
+
+
+
+Before we continue to learn about Linux shell commands, it is important to know that there are 
+many symbols and characters that the shell interprets in special ways. This means that certain 
+typed characters: a) cannot be used in certain situations, b) may be used to perform special 
+operations, or, c) must be "escaped" if you want to use them in a normal way. 
+
+
+
+Character 
+
+
+Description 
+
+
+\ 
+
+
+Escape character. If you want to reference a special character, you must "escape" it 
+with a backslash first. 
+
+Example: touch /tmp/ filename \* 
+
+
+/ 
+
+
+Directory separator, used to separate a string of directory names. 
+Example: /usr/src/linux 
+
+
+• 
+
+
+Current directory. Can also "hide" files when it is the first character in a filename. 
+
+
+
+
+Parent directory 
+
+
+
+
+User's home directory 
+
+
+* 
+
+
+Represents 0 or more characters in a filename, or by itself, all files in a directory. 
+
+Example: pic*2002 can represent the files pic2002, pic January2 002, 
+picFeb292002, etc. 
+
+
+? 
+
+
+Represents a single character in a filename. 
+
+Example: hello? • txt can represent hellol . txt, helloz . txt, but not 
+hello22 .txt 
