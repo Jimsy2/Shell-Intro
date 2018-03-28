@@ -3,7 +3,7 @@ An Introduction to the Linux Command Shell for Beginners
 
 <img alt="Linux Symbol" src="pics/linux-symbol.jpg" title="Tux" width="50%">
 
-<dl> 
+<dl style="page-break-before: always"> 
   <dt>Presented by  </dt>
     <dd>Victor Gedris  </dd>
   <dt>In Co-Operation with  </dt>
@@ -12,7 +12,7 @@ An Introduction to the Linux Command Shell for Beginners
     <dd>ExitCertified  </dd>
 </dl>
 
-<div style="page-break-before: always">
+
 Copyright and Redistribution
 ----------------------------
 
@@ -30,71 +30,14 @@ Copyright © 2003 Victor Gedris. Permission is granted to copy, distribute and/o
 A copy of the license is available from the Free Software Foundation's website: http://www.fsf.org/copyleft/fdl.html
 
 Document Version:  1.2, 2003-06-25
-</div>
 
-1.0
-Introduction
-The
-purpose
-of
-this
-document
-is to
-provide
-the
-reader
-with
-a fast
-and
-simple
-introduction
-to
-using
-the
-Linux
-command
-shell
-and
-some
-of
-its
-basic
-utilities.
-It is assumed
-that
-the
-reader
-has
-zero
-or
-very
-limited
-exposure
-to
-the
-Linux
-command
-prompt.
-This
-document
-is designed
-to
-accompany
-an
-instructor-led
-tutorial
-on
-this
-subject,
-and
-therefore
-some
-details
-have
-been
-left
-out.
-Explanations,
-practical examples, and references to DOS commands are made, where appropriate.
-1.1
-What is a command shell?
+
+1.0 Introduction
+----------------
+
+The purpose of this document is to provide the reader with a fast and simple introduction to using the Linux command shell and some of its basic utilities.
+It is assumed that the reader has zero or very limited exposure to the Linux command prompt.
+This document is designed to accompany an instructor-led tutorial on this subject, and therefore some details have been left out.
+Explanations, practical examples, and references to DOS commands are made, where appropriate.
+
+### 1.1 What is a command shell?
