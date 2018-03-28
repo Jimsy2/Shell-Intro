@@ -12,6 +12,7 @@ An Introduction to the Linux Command Shell for Beginners
     <dd>ExitCertified  </dd>
 </dl>
 
+<div style="page-break-before: always">
 Copyright and Redistribution
 ----------------------------
 
@@ -21,27 +22,16 @@ it and re-distributing modified copies.
 You have permission to modify and distribute this document, as specified under the terms of the GNU Free Documentation License. 
 Comments and suggestions for improvement may be directed to: vic@gedris.org .
 
-
 This document was created using an Open Source office application called *Open Office*. The file format is non-proprietary, and the document is also published in various other formats online.
-Updated copies
-will
-be
-available
-on
-Vic
-Gedris'
-web
-site
-[
-http://vic.dyndns.org/
-].
-For
-more information on Open Office, please visit 
-http://www.openoffice.org/ .
+Updated copies will be available on Vic Gedris' web site [http://vic.dyndns.org/].
+For more information on Open Office, please visit http://www.openoffice.org/ .
 
 Copyright © 2003 Victor Gedris. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with no Invariant Sections, with no Front-Cover Texts, and with no Back-Cover Texts.
 A copy of the license is available from the Free Software Foundation's website: http://www.fsf.org/copyleft/fdl.html
+
 Document Version:  1.2, 2003-06-25
+</div>
+
 1.0
 Introduction
 The
