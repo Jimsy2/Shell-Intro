@@ -50,6 +50,7 @@ very limited exposure to the Linux command prompt. This document is designed to 
 instructor-led tutorial on this subject, and therefore some details have been left out. Explanations, 
 practical examples, and references to DOS commands are made, where appropriate. 
 
+
 ### 1.1 What is a command shell? ###
 
  * A program that interprets commands 
@@ -60,19 +61,21 @@ practical examples, and references to DOS commands are made, where appropriate.
  * A shell is not an operating system. It is a way to interface with the operating system and run 
    commands. 
 
+
 ### 1.2 What is BASH? ###
 
  * BASH = Bourne Again SHell  
 
  * Bash is a shell written as a free replacement to the standard Bourne Shell (/bin/sh) 
-originally written by Steve Bourne for UNIX systems. 
+   originally written by Steve Bourne for UNIX systems. 
 
  * It has all of the features of the original Bourne Shell, plus additions that make it easier to 
-program with and use from the command line. 
+   program with and use from the command line. 
 
-• Since it is Free Software, it has been adopted as the default shell on most Linux systems. 
+ * Since it is Free Software, it has been adopted as the default shell on most Linux systems. 
 
-1.3 How is BASH different from the DOS command prompt? 
+
+## 1.3 How is BASH different from the DOS command prompt? ##
 
 • Case Sensitivity: In Linux/UNIX, commands and filenames are case sensitive, meaning 
 
