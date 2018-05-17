@@ -103,10 +103,10 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 
 | Character | Description 
 |:---------:|:------------
-|    `\`    | Escape character. If you want to reference a special character, you must "escape" it with a backslash first. <br>Example: `touch /tmp/ filename \*` 
+|    `\`    | Escape character. If you want to reference a special character, you must "escape" it with a backslash first. <br>Example: `touch /tmp/filename\*` 
 |    `/`    | Directory separator, used to separate a string of directory names. <br>Example: /usr/src/linux 
 |    `.`    | Current directory. Can also "hide" files when it is the first character in a filename. 
 |    `..`   | Parent directory 
 |    `~`    | User's home directory 
 |    `*`    | Represents 0 or more characters in a filename, or by itself, all files in a directory. <br>Example: `pic*2002` can represent the files `pic2002`, `pic January2 002`, `picFeb292002`, etc. 
-|    `?`    | Represents a single character in a filename. <br>Example: `hello?.txt` can represent `hellol . txt`, `helloz . txt`, but not `hello22.txt` 
+|    `?`    | Represents a single character in a filename. <br>Example: `hello?.txt` can represent `hellol.txt`, `helloz.txt`, but not `hello22.txt` 
