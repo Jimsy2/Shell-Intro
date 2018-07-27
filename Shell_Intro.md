@@ -108,6 +108,8 @@ many symbols and characters that the shell interprets in special ways. This mean
 typed characters: a) cannot be used in certain situations, b) may be used to perform special 
 operations, or, c) must be "escaped" if you want to use them in a normal way. 
 
+<dl><dd>
+  
 | Character | Description 
 |:---------:|:------------
 |    `\`    | Escape character. If you want to reference a special character, you must "escape" it with a backslash first. <br>Example: `touch /tmp/filename\*` 
@@ -116,8 +118,11 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 |    `..`   | Parent directory 
 |    `~`    | User's home directory 
 |    `*`    | Represents 0 or more characters in a filename, or by itself, all files in a directory. <br>Example: `pic*2002` can represent the files `pic2002`, `pic anuary2002`, `picFeb292002`, etc. 
-|    `?`    | Represents a single character in a filename. <br>Example: `hello?.txt` can represent `hello1.txt`, `helloz.txt`, but not `hello22.txt` 
-|  `[  ]`   | Can be used to represent a range of values, e.g. [0-9], [A-Z], etc. <br>Example: `hello[0-2].txt` represents the names `hello0.txt`, `hello1.txt`, and `hello2.txt`
+|    `?`    | Represents a single character in a filename. <br>Example: `hello?.txt` can represent `hello1.txt`, `helloz.txt`, but not `hello22.txt`
+|   `[  ]`  | Can be used to represent a range of values, e.g. [0-9], [A-Z], etc. <br>Example: `hello[0-2].txt` represents the names `hello0.txt`, `hello1.txt`, and `hello2.txt`
 |    `\|`   | “Pipe”. Redirect the output of one command into another command. <br>Example: `ls \| more`
+|    `>`    | Redirect output of a command into a new file. If the file already exists, over-write it. <br>Example: `ls > myfiles.txt`
+|    `>>`   | Redirect output of a command onto the end of an existing file. <br>Example: `echo “Mary 555-1234” >> phonenumbers.txt`
+|    `<`    | Redirect a file as input to a program. <br>Example: `more < phonenumbers.txt`
 
-
+</dd></dl>
