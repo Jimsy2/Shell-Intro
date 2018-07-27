@@ -10,22 +10,24 @@ An Introduction to the Linux Command Shell for Beginners
     <dd>The Ottawa Canada Linux Users Group  </dd>
   <dt>and  </dt>
     <dd>ExitCertified  </dd>
-  <dt>Markdown formatted version by  </dt>
-    <dd>Dirk Eismann (2018)</dd>
+  <dt><ins>Markdown formatted version by</ins>  </dt>
+    <dd><ins>Dirk Eismann (2018-07-27)</ins></dd>
 </dl>
 
 
 Copyright and Redistribution
 ----------------------------
 
-This manual was written with the intention of being a helpful guide to Linux users who are trying to become familiar with the Bash shell and basic Linux commands.
-To make this manual useful to the widest range of people, I decided to release it under a free documentation license, with the hopes that people benefit from it by updating
-it and re-distributing modified copies.
-You have permission to modify and distribute this document, as specified under the terms of the GNU Free Documentation License. 
-Comments and suggestions for improvement may be directed to: vic@gedris.org .
+This manual was written with the intention of being a helpful guide to Linux users who are trying 
+to become familiar with the Bash shell and basic Linux commands. To make this manual useful to 
+the widest range of people, I decided to release it under a free documentation license, with the 
+hopes that people benefit from it by updating it and re-distributing modified copies. You have 
+permission to modify and distribute this document, as specified under the terms of the GNU Free 
+Documentation License. Comments and suggestions for improvement may be directed to: vic@gedris.org .
 
-This document was created using an Open Source office application called *Open Office*. The file format is non-proprietary, and the document is also published in various other formats online.
-Updated copies will be available on Vic Gedris' web site ~~[http://vic.dyndns.org/]~~.
+This document was created using an Open Source office application called *Open Office*. The file 
+format is non-proprietary, and the document is also published in various other formats online.
+<del>Updated copies will be</del><ins>The original Open Office document is</ins> available on Vic Gedris' web site <ins>http://gedris.org/LinuxShellIntro.html/<ins><del>[http://vic.dyndns.org/]</del> .
 For more information on Open Office, please visit http://www.openoffice.org/ .
 
 Copyright © 2003 Victor Gedris. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with no Invariant Sections, with no Front-Cover Texts, and with no Back-Cover Texts.
