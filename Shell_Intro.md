@@ -126,6 +126,9 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 |    `>`    | Redirect output of a command into a new file. If the file already exists, over-write it. <br>Example: `ls > myfiles.txt`
 |    `>>`   | Redirect output of a command onto the end of an existing file. <br>Example: `echo “Mary 555-1234” >> phonenumbers.txt`
 |    `<`    | Redirect a file as input to a program. <br>Example: `more < phonenumbers.txt`
+|    `;`    | Command separator. Allows you to execute multiple commands on a single line. <br>Example: `cd /var/log ; less messages`
+|    `&&`   | Command separator as above, but only runs the second command if the first one finished without errors.<br>Example: `cd /var/logs && less messages`
+|    `&`    | Execute a command in the background, and immediately get your shell back. <br>Example: `find / -name core > /tmp/corefiles.txt &`
 
 </dd></dl>
 
