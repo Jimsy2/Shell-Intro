@@ -1,7 +1,7 @@
 An Introduction to the Linux Command Shell for Beginners
 ========================================================
 
-<img alt="Linux Symbol" src="pics/linux-symbol.jpg" title="Tux" width="50%">
+<img alt="Linux Symbol" src="pics/Linux-Logo.png" title="Tux" width="43%">
 
 <dl style="page-break-before: always"> 
   <dt>Presented by  </dt>
