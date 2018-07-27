@@ -154,7 +154,6 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 
  * Commands can be run by themselves, or you can pass in additional arguments to make them do 
    different things. Typical command syntax can look something like this:  
-   
    `command [-argument] [-argument] [--argument] [file]`
     
     Examples:  
