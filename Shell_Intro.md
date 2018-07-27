@@ -144,18 +144,22 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
    `/bin, /usr/bin, /usr/X11R6/bin`, and others.
  * To execute commands that are not in your current PATH, you have to give the complete 
    location of the command.  
-   Examples: `/home/bob/myprogram`  
-   `       ./program (Execute a program in the current directory)`  
-   `       ~/bin/program (Execute program from a personal bin directory)`
+   
+   Examples:  
+             `/home/bob/myprogram`  
+             `./program (Execute a program in the current directory)`  
+             `~/bin/program (Execute program from a personal bin directory)`
    
 ### Command Syntax ###
 
  * Commands can be run by themselves, or you can pass in additional arguments to make them do 
    different things. Typical command syntax can look something like this:  
+   
    `command [-argument] [-argument] [--argument] [file]`
     
-    Examples: `ls               ` List files in current directory
-              `ls -l            ` Lists files in “long” format
+    Examples:  
+              `ls               ` List files in current directory  
+              `ls -l            ` Lists files in “long” format  
               `ls -l --color    ` As above, with colourized output  
-              `cat filename     ` Show contents of a file
-              `cat -n filename  ` Show contents of a file, with line numbers
+              `cat filename     ` Show contents of a file  
+              `cat -n filename  ` Show contents of a file, with line numbers  
