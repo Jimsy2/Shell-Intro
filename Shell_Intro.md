@@ -27,30 +27,32 @@ Documentation License. Comments and suggestions for improvement may be directed 
 
 This document was created using an Open Source office application called *Open Office*. The file 
 format is non-proprietary, and the document is also published in various other formats online.
-<del>Updated copies will be</del><ins>The original Open Office document is</ins> available on Vic Gedris' web site <ins>http://gedris.org/LinuxShellIntro.html/<ins><del>[http://vic.dyndns.org/]</del> .
+<del>Updated copies will be</del><ins>The original Open Office document is</ins> available on Vic Gedris' web site <ins>http://gedris.org/LinuxShellIntro.html<ins><del> [http://vic.dyndns.org/]</del>.
 For more information on Open Office, please visit http://www.openoffice.org/ .
 
-Copyright © 2003 Victor Gedris. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with no Invariant Sections, with no Front-Cover Texts, and with no Back-Cover Texts.
-A copy of the license is available from the Free Software Foundation's website: http://www.fsf.org/copyleft/fdl.html
+Copyright © 2003 Victor Gedris.  
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU 
+Free Documentation License, Version 1.1 or any later version published by the Free Software 
+Foundation; with no Invariant Sections, with no Front-Cover Texts, and with no Back-Cover 
+Texts. A copy of the license is available from the Free Software Foundation's website: 
+http://www.fsf.org/copyleft/fdl.html
 
 Document Version:  1.2, 2003-06-25
+
+
+
+   <!-- page break -->
+
 
 
 1.0 Introduction
 ----------------
 
-The purpose of this document is to provide the reader with a fast and simple introduction to using the Linux command shell and some of its basic utilities.
-It is assumed that the reader has zero or very limited exposure to the Linux command prompt.
-This document is designed to accompany an instructor-led tutorial on this subject, and therefore some details have been left out.
-Explanations, practical examples, and references to DOS commands are made, where appropriate.
-
-### 1.1 What is a command shell? ##
-
 The purpose of this document is to provide the reader with a fast and simple introduction to using 
 the Linux command shell and some of its basic utilities. It is assumed that the reader has zero or 
 very limited exposure to the Linux command prompt. This document is designed to accompany an 
 instructor-led tutorial on this subject, and therefore some details have been left out. Explanations, 
-practical examples, and references to DOS commands are made, where appropriate. 
+practical examples, and references to DOS commands are made, where appropriate.
 
 
 ### 1.1 What is a command shell? ###
@@ -66,7 +68,7 @@ practical examples, and references to DOS commands are made, where appropriate.
 
 ### 1.2 What is BASH? ###
 
- * BASH = Bourne Again SHell  
+ * BASH = **B**ourne **A**gain **SH**ell  
 
  * Bash is a shell written as a free replacement to the standard Bourne Shell (/bin/sh) 
    originally written by Steve Bourne for UNIX systems. 
@@ -79,15 +81,15 @@ practical examples, and references to DOS commands are made, where appropriate.
 
 ## 1.3 How is BASH different from the DOS command prompt? ##
 
- * Case Sensitivity: In Linux/UNIX, commands and filenames are case sensitive, meaning 
+ * __Case Sensitivity:__ In Linux/UNIX, commands and filenames are case sensitive, meaning 
    that typing "EXIT" instead of the proper "exit" is a mistake. 
 
- * "\" vs. "/": In DOS, the forward-slash "/" is the command argument delimiter, 
+ * __"\" vs. "/":__ In DOS, the forward-slash "/" is the command argument delimiter, 
    while the backslash "\" is a directory separator. In Linux/UNIX, the 
    "/" is the directory separator, and the "\" is an escape character. More 
    about these special characters in a minute! 
 
- * Filenames: The DOS world uses the "eight dot three" filename convention, meaning 
+ * __Filenames:__ The DOS world uses the "eight dot three" filename convention, meaning 
    that all files followed a format that allowed up to 8 characters in the 
    filename, followed by a period ("dot"), followed by an option extension, 
    up to 3 characters long (e.g. FILENAME . TXT). In UNIX/Linux, there is 
