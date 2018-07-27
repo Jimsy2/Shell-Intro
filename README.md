@@ -4,3 +4,5 @@ This is a renewed edition of _An Introduction To Linux Command Shell_ as a Marko
 
 This renewed edition has two goals. First, the translation into a Markown/HTML formatted document for easier maintainability. 
 Second, to make the manual more attractive to users of non-Linux operating systems like Mac OS X or Android.
+
+Changes to the Text are marked with `<ins>` and `<del>`.
