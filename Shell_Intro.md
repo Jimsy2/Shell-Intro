@@ -94,7 +94,7 @@ practical examples, and references to DOS commands are made, where appropriate.
  * __Filenames:__  
       The DOS world uses the "eight dot three" filename convention, meaning 
       that all files followed a format that allowed up to 8 characters in the 
-      filename, followed by a period ("dot"), followed by an option extension, 
+      filename, followed by a period ("dot"), followed by an option<ins>al</ins> extension, 
       up to 3 characters long (e.g. `FILENAME.TXT`). In UNIX/Linux, there is 
       no such thing as a file extension. Periods can be placed at any part of the 
       filename, and "extensions" may be interpreted differently by all 
@@ -111,9 +111,13 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 | Character | Description 
 |:---------:|:------------
 |    `\`    | Escape character. If you want to reference a special character, you must "escape" it with a backslash first. <br>Example: `touch /tmp/filename\*` 
-|    `/`    | Directory separator, used to separate a string of directory names. <br>Example: /usr/src/linux 
+|    `/`    | Directory separator, used to separate a string of directory names. <br>Example: `/usr/src/linux` 
 |    `.`    | Current directory. Can also "hide" files when it is the first character in a filename. 
 |    `..`   | Parent directory 
 |    `~`    | User's home directory 
-|    `*`    | Represents 0 or more characters in a filename, or by itself, all files in a directory. <br>Example: `pic*2002` can represent the files `pic2002`, `pic January2 002`, `picFeb292002`, etc. 
-|    `?`    | Represents a single character in a filename. <br>Example: `hello?.txt` can represent `hellol.txt`, `helloz.txt`, but not `hello22.txt` 
+|    `*`    | Represents 0 or more characters in a filename, or by itself, all files in a directory. <br>Example: `pic*2002` can represent the files `pic2002`, `pic anuary2002`, `picFeb292002`, etc. 
+|    `?`    | Represents a single character in a filename. <br>Example: `hello?.txt` can represent `hello1.txt`, `helloz.txt`, but not `hello22.txt` 
+|  `[  ]`   | Can be used to represent a range of values, e.g. [0-9], [A-Z], etc. <br>Example: `hello[0-2].txt` represents the names `hello0.txt`, `hello1.txt`, and `hello2.txt`
+|    `|`    | “Pipe”. Redirect the output of one command into another command. <br>Example: `ls | more`
+
+
