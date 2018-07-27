@@ -81,21 +81,24 @@ practical examples, and references to DOS commands are made, where appropriate.
 
 ## 1.3 How is BASH different from the DOS command prompt? ##
 
- * __Case Sensitivity:__ In Linux/UNIX, commands and filenames are case sensitive, meaning 
-   that typing "EXIT" instead of the proper "exit" is a mistake. 
+ * __Case Sensitivity:__  
+      In Linux/UNIX, commands and filenames are case sensitive, meaning 
+      that typing "EXIT" instead of the proper "exit" is a mistake. 
 
- * __"\" vs. "/":__ In DOS, the forward-slash "/" is the command argument delimiter, 
-   while the backslash "\" is a directory separator. In Linux/UNIX, the 
-   "/" is the directory separator, and the "\" is an escape character. More 
-   about these special characters in a minute! 
+ * __"\" vs. "/":__  
+      In DOS, the forward-slash "/" is the command argument delimiter, 
+      while the backslash "\" is a directory separator. In Linux/UNIX, the 
+      "/" is the directory separator, and the "\" is an escape character. More 
+      about these special characters in a minute! 
 
- * __Filenames:__ The DOS world uses the "eight dot three" filename convention, meaning 
-   that all files followed a format that allowed up to 8 characters in the 
-   filename, followed by a period ("dot"), followed by an option extension, 
-   up to 3 characters long (e.g. FILENAME . TXT). In UNIX/Linux, there is 
-   no such thing as a file extension. Periods can be placed at any part of the 
-   filename, and "extensions" may be interpreted differently by all 
-   programs, or not at all. 
+ * __Filenames:__  
+      The DOS world uses the "eight dot three" filename convention, meaning 
+      that all files followed a format that allowed up to 8 characters in the 
+      filename, followed by a period ("dot"), followed by an option extension, 
+      up to 3 characters long (e.g. `FILENAME.TXT`). In UNIX/Linux, there is 
+      no such thing as a file extension. Periods can be placed at any part of the 
+      filename, and "extensions" may be interpreted differently by all 
+      programs, or not at all. 
 
 
 ## 1.4 Special Characters ##
