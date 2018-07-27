@@ -11,7 +11,7 @@ An Introduction to the Linux Command Shell for Beginners
   <dt>and  </dt>
     <dd>ExitCertified  </dd>
   <dt><ins>Markdown formatted version by</ins>  </dt>
-    <dd><ins>Dirk Eismann (2018-07-27)</ins></dd>
+    <dd><ins>Dirk Eismann, 2018-07-28</ins></dd>
 </dl>
 
 
@@ -128,3 +128,20 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 |    `<`    | Redirect a file as input to a program. <br>Example: `more < phonenumbers.txt`
 
 </dd></dl>
+
+
+## 1.5 Executing Commands ##
+
+**The Command `PATH`:**
+
+ * Most common commands are located in your shell's “PATH”, meaning that you can just 
+   type the name of the program to execute it.  
+   Example: Typing `ls` will execute the _ls_ command.
+ * Your shell's “PATH” variable includes the most common program locations, such as  
+   `/bin, /usr/bin, /usr/X11R6/bin`, and others.
+ * To execute commands that are not in your current PATH, you have to give the complete 
+   location of the command.  
+   Examples: `/home/bob/myprogram`  
+   `       ./program (Execute a program in the current directory)`  
+   `       ~/bin/program (Execute program from a personal bin directory)`
+
