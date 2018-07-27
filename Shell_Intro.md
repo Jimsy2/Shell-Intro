@@ -68,7 +68,9 @@ practical examples, and references to DOS commands are made, where appropriate.
 
 ### 1.2 What is BASH? ###
 
- * BASH = **B**ourne **A**gain **SH**ell  
+<ins>Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. Released in 1989, it has been distributed widely as the shell for the GNU operating system and as a default shell on Linux and OS X.</ins>
+
+ * BASH <del>= </del><ins>is an acronym for</ins> **B**ourne **A**gain **SH**ell  
 
  * Bash is a shell written as a free replacement to the standard Bourne Shell (/bin/sh) 
    originally written by Steve Bourne for UNIX systems. 
