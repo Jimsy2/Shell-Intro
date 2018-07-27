@@ -118,6 +118,6 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 |    `*`    | Represents 0 or more characters in a filename, or by itself, all files in a directory. <br>Example: `pic*2002` can represent the files `pic2002`, `pic anuary2002`, `picFeb292002`, etc. 
 |    `?`    | Represents a single character in a filename. <br>Example: `hello?.txt` can represent `hello1.txt`, `helloz.txt`, but not `hello22.txt` 
 |  `[  ]`   | Can be used to represent a range of values, e.g. [0-9], [A-Z], etc. <br>Example: `hello[0-2].txt` represents the names `hello0.txt`, `hello1.txt`, and `hello2.txt`
-|   `\|`   | “Pipe”. Redirect the output of one command into another command. <br>Example: `ls | more`
+|    `\|`   | “Pipe”. Redirect the output of one command into another command. <br>Example: `ls \| more`
 
 
