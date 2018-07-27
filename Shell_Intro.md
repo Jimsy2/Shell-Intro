@@ -45,7 +45,7 @@ Document Version:  1.2, 2003-06-25
 
 
 
-1.0 Introduction
+1.0　Introduction
 ----------------
 
 The purpose of this document is to provide the reader with a fast and simple introduction to using 
@@ -55,7 +55,7 @@ instructor-led tutorial on this subject, and therefore some details have been le
 practical examples, and references to DOS commands are made, where appropriate.
 
 
-### 1.1 What is a command shell? ###
+### 1.1　What is a command shell? ###
 
  * A program that interprets commands 
 
@@ -66,7 +66,7 @@ practical examples, and references to DOS commands are made, where appropriate.
    commands. 
 
 
-### 1.2 What is BASH? ###
+### 1.2　What is BASH? ###
 
 <ins>Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. Released in 1989, it has been distributed widely as the shell for the GNU operating system and as a default shell on Linux and OS X.</ins>
 
@@ -81,7 +81,7 @@ practical examples, and references to DOS commands are made, where appropriate.
  * Since it is Free Software, it has been adopted as the default shell on most Linux systems. 
 
 
-## 1.3 How is BASH different from the DOS command prompt? ##
+## 1.3　How is BASH different from the DOS command prompt? ##
 
  * __Case Sensitivity:__  
       In Linux/UNIX, commands and filenames are case sensitive, meaning 
@@ -103,7 +103,7 @@ practical examples, and references to DOS commands are made, where appropriate.
       programs, or not at all. 
 
 
-## 1.4 Special Characters ##
+## 1.4　Special Characters ##
 
 Before we continue to learn about Linux shell commands, it is important to know that there are 
 many symbols and characters that the shell interprets in special ways. This means that certain 
@@ -133,7 +133,7 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 </dd></dl>
 
 
-## 1.5 Executing Commands ##
+## 1.5　Executing Commands ##
 
 **The Command `PATH`:**
 
