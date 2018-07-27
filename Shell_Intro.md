@@ -135,7 +135,7 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 
 ## 1.5 Executing Commands ##
 
-**The Command `PATH`:**
+### The Command `PATH` ###
 
  * Most common commands are located in your shell's “PATH”, meaning that you can just 
    type the name of the program to execute it.  
@@ -147,4 +147,17 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
    Examples: `/home/bob/myprogram`  
    `       ./program (Execute a program in the current directory)`  
    `       ~/bin/program (Execute program from a personal bin directory)`
+   
+### Command Syntax ###
 
+ * Commands can be run by themselves, or you can pass in additional arguments to make them do 
+   different things. Typical command syntax can look something like this:
+   `command [-argument] [-argument] [--argument] [file]`
+    
+```
+    Examples: ls               List files in current directory
+              ls -l            Lists files in “long” format
+              ls -l --color    As above, with colourized output  
+              cat filename     Show contents of a file
+              cat -n filename  Show contents of a file, with line numbers
+```
