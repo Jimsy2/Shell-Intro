@@ -157,8 +157,8 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
    ` command [-argument] [-argument] [--argument] [file]`
     
     Examples:  
-              ` ls               ` List files in current directory  
-              ` ls -l            ` Lists files in “long” format  
-              ` ls -l --color    ` As above, with colourized output  
-              ` cat filename     ` Show contents of a file  
-              ` cat -n filename  ` Show contents of a file, with line numbers  
+              ` ls              ` List files in current directory  
+              ` ls -l           ` Lists files in “long” format  
+              ` ls -l --color   ` As above, with colourized output  
+              ` cat filename    ` Show contents of a file  
+              ` cat -n filename ` Show contents of a file, with line numbers  
