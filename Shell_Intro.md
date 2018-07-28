@@ -87,7 +87,7 @@ practical examples, and references to DOS commands are made, where appropriate.
       In Linux/UNIX, commands and filenames are case sensitive, meaning 
       that typing "EXIT" instead of the proper "exit" is a mistake. 
 
- * __"\" vs. "/":__  
+ * __"\\" vs. "/":__  
       In DOS, the forward-slash "/" is the command argument delimiter, 
       while the backslash "\" is a directory separator. In Linux/UNIX, the 
       "/" is the directory separator, and the "\" is an escape character. More 
