@@ -45,6 +45,7 @@ Document Version:  1.2, 2003-06-25
 
 
 
+
 1.0 Introduction
 ----------------
 
@@ -162,3 +163,16 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
               ` ls -l --color   ` As above, with colourized output  
               ` cat filename    ` Show contents of a file  
               ` cat -n filename ` Show contents of a file, with line numbers  
+
+
+
+2.0 Getting Help
+----------------
+
+When you're stuck and need help with a Linux command, help is usually only a few keystrokes away! Help on most Linux commands is typically built right into the commands themselves, available through online help programs (“man pages” and “info pages”), and of course online.
+
+
+## 2.1 Using a Command's Built-In Help ##
+Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`.
+
+Example: `grep --help`
