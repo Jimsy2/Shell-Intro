@@ -82,7 +82,7 @@ practical examples, and references to DOS commands are made, where appropriate.
  * Since it is Free Software, it has been adopted as the default shell on most Linux systems. 
 
 
-## 1.3 How is BASH different from the DOS command prompt? ##
+### 1.3 How is BASH different from the DOS command prompt? ###
 
  * __Case Sensitivity:__  
       In Linux/UNIX, commands and filenames are case sensitive, meaning 
@@ -104,7 +104,7 @@ practical examples, and references to DOS commands are made, where appropriate.
       programs, or not at all. 
 
 
-## 1.4 Special Characters ##
+### 1.4 Special Characters ###
 
 Before we continue to learn about Linux shell commands, it is important to know that there are 
 many symbols and characters that the shell interprets in special ways. This means that certain 
@@ -134,13 +134,12 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 </dd></dl>
 
 
-## 1.5 Executing Commands ##
+### 1.5 Executing Commands ###
 
-### The Command `PATH` ###
+#### The Command `PATH` ####
 
  * Most common commands are located in your shell's “PATH”, meaning that you can just 
-   type the name of the program to execute it.  
-   Example: Typing `ls` will execute the _ls_ command.
+   type the name of the program to execute it. Example: Typing `ls` will execute the "ls" command.
  * Your shell's “PATH” variable includes the most common program locations, such as  
    `/bin, /usr/bin, /usr/X11R6/bin`, and others.
  * To execute commands that are not in your current PATH, you have to give the complete 
@@ -166,13 +165,11 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 
 
 
-2.0 Getting Help
+2.0 Getting Help
 ----------------
 
 When you're stuck and need help with a Linux command, help is usually only a few keystrokes away! Help on most Linux commands is typically built right into the commands themselves, available through online help programs (“man pages” and “info pages”), and of course online.
 
 
-## 2.1 Using a Command's Built-In Help ##
-Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`.
-
-Example: `grep --help`
+### 2.1 Using a Command's Built-In Help ###
+Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`. Example: `grep --help`
