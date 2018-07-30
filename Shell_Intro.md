@@ -141,7 +141,7 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
  * Most common commands are located in your shell's “PATH”, meaning that you can just 
    type the name of the program to execute it. Example: Typing `ls` will execute the "ls" command.
  * Your shell's “PATH” variable includes the most common program locations, such as  
-   `/bin, /usr/bin, /usr/X11R6/bin`, and others.
+   ` /bin, /usr/bin, /usr/X11R6/bin`, and others.
  * To execute commands that are not in your current PATH, you have to give the complete 
    location of the command.  
    
@@ -172,4 +172,4 @@ When you're stuck and need help with a Linux command, help is usually only a few
 
 
 ### 2.1 Using a Command's Built-In Help ###
-Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`. Example: `grep --help`
+Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`. Example: ` grep --help`
