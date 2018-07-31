@@ -197,3 +197,34 @@ Some programs, particularly those released by the Free Software Foundation, use 
 -----------------------------------
 
 The Linux filesystem is a tree-like hierarchy hierarchy of directories and files. At the base of the filesystem is the “/” directory, otherwise known as the “root” (not to be confused with the root user). Unlike DOS or Windows filesystems that have multiple “roots”, one for each disk drive, the Linux filesystem mounts all disks somewhere underneath the / filesystem. The following table describes many of the most common Linux directories.
+
+### 3.1 The Linux Directory Layout ###
+
+<dl><dd>
+  
+|  Directory   | Description 
+|:------------:|:------------
+|     `/`      | The nameless base of the filesystem. All other directories, files, drives, and devices are attached to this root. Commonly (but incorrectly) referred to as the “slash” or “/” directory. The “/” is just a directory separator, not a directory itself.
+|    `/bin`    | 
+|   `/boot`    | 
+|    `/dev`    | 
+|    `/etc`    | 
+|   `/home`    | 
+|    `/lib`    | 
+|   `/proc`    | 
+|   `/root`    | 
+|   `/sbin`    | 
+|    `/tmp`    | 
+|    `/usr`    | 
+|  `/usr/bin`  | 
+|`/usr/include`| Header files for compiling C programs.
+|  `/usr/lib`  | 
+| `/usr/local` | 
+| `/usr/sbin`  | 
+|`/usr/share`  | 
+|  `/usr/src`  | 
+| `/usr/X11R6` | 
+|    `/var`    | 
+
+</dd></dl>
+
