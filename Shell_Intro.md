@@ -27,10 +27,10 @@ Documentation License. Comments and suggestions for improvement may be directed 
 
 This document was created using an Open Source office application called *Open Office*. The file 
 format is non-proprietary, and the document is also published in various other formats online.
-<del>Updated copies will be</del><ins>The original Open Office document is</ins> available on Vic Gedris' web site <ins>http://gedris.org/LinuxShellIntro.html<ins><del> [http://vic.dyndns.org/]</del>.
+<del>Updated copies will be</del> <ins>The original Open Office document is</ins> available on Vic Gedris' web site <ins>http://gedris.org/LinuxShellIntro.html<ins> <del> [http://vic.dyndns.org/]</del>.
 For more information on Open Office, please visit http://www.openoffice.org/ .
 
-Copyright © 2003 Victor Gedris.  
+Copyright © 2003 Victor Gedris.   
 Permission is granted to copy, distribute and/or modify this document under the terms of the GNU 
 Free Documentation License, Version 1.1 or any later version published by the Free Software 
 Foundation; with no Invariant Sections, with no Front-Cover Texts, and with no Back-Cover 
@@ -40,10 +40,7 @@ http://www.fsf.org/copyleft/fdl.html
 Document Version:  1.2, 2003-06-25
 
 
-
    <!-- page break -->
-
-
 
 
 1.0 Introduction
@@ -71,7 +68,7 @@ practical examples, and references to DOS commands are made, where appropriate.
 
 <ins>Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. Released in 1989, it has been distributed widely as the shell for the GNU operating system and as a default shell on Linux and OS X.</ins>
 
- * BASH <del>= </del><ins>is an acronym for</ins> **B**ourne **A**gain **SH**ell  
+ * BASH <del>=</del> <ins>is an acronym for</ins> **B**ourne **A**gain **SH**ell  
 
  * Bash is a shell written as a free replacement to the standard Bourne Shell (/bin/sh) 
    originally written by Steve Bourne for UNIX systems. 
@@ -146,9 +143,9 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
    location of the command.  
    
    Examples:  
-             ` /home/bob/myprogram`  
-             ` ./program (Execute a program in the current directory)`  
-             ` ~/bin/program (Execute program from a personal bin directory)`
+        ` /home/bob/myprogram`  
+        ` ./program (Execute a program in the current directory)`  
+        ` ~/bin/program (Execute program from a personal bin directory)`
    
 ### Command Syntax ###
 
@@ -157,11 +154,11 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
    ` command [-argument] [-argument] [--argument] [file]`
     
     Examples:  
-              ` ls              ` List files in current directory  
-              ` ls -l           ` Lists files in “long” format  
-              ` ls -l --color   ` As above, with colourized output  
-              ` cat filename    ` Show contents of a file  
-              ` cat -n filename ` Show contents of a file, with line numbers  
+        ` ls              ` List files in current directory  
+        ` ls -l           ` Lists files in “long” format  
+        ` ls -l --color   ` As above, with colourized output  
+        ` cat filename    ` Show contents of a file  
+        ` cat -n filename ` Show contents of a file, with line numbers  
 
 
 
@@ -172,4 +169,22 @@ When you're stuck and need help with a Linux command, help is usually only a few
 
 
 ### 2.1 Using a Command's Built-In Help ###
-Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`. Example: ` grep --help`
+
+Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`.  
+    Example:  
+        ` grep --help`
+
+### 2.2 Online Manuals: “Man Pages” ###
+
+The best source of information for most commands can be found in the online manual pages, known as “man pages” for short. To read a command's man page, type `man command`.  
+    Examples:  
+        ` man ls`        Get help on the “ls” command.  
+        ` man man`       A manual about how to use the manual!  
+To search for a particular word within a man page, type `/`"word”. To quit from a man page, just type the `Q` key.
+
+Sometimes, you might not remember the name of Linux command and you need to search for it. For example, if you want to know how to change a file's permissions, you can search the man page descriptions for the word “permission” like this:  
+        ` man -k permission`  
+If you look at the output of this command, you will find a line that looks something like:  
+`chmod (1) - change file access permissions`  
+Now you know that “chmod” is the command you were looking for. Typing “man chmod” will show you the chmod command's manual page!
+
