@@ -205,10 +205,10 @@ The Linux filesystem is a tree-like hierarchy hierarchy of directories and files
 |  Directory   | Description 
 |:------------:|:------------
 |     `/`      | The nameless base of the filesystem. All other directories, files, drives, and devices are attached to this root. Commonly (but incorrectly) referred to as the “slash” or “/” directory. The “/” is just a directory separator, not a directory itself.
-|    `/bin`    | 
-|   `/boot`    | 
-|    `/dev`    | 
-|    `/etc`    | 
+|    `/bin`    | Essential command binaries (programs) are stored here (bash, ls, mount, tar, etc.)
+|   `/boot`    | Static files of the boot loader.
+|    `/dev`    | Device files. In Linux, hardware devices are acceessd just like other files, and they are kept under this directory.
+|    `/etc`    | Host-specific system configuration files.
 |   `/home`    | 
 |    `/lib`    | 
 |   `/proc`    | 
