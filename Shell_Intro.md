@@ -186,7 +186,7 @@ To search for a particular word within a man page, type `/`"word”. To quit fro
 Sometimes, you might not remember the name of Linux command and you need to search for it. For example, if you want to know how to change a file's permissions, you can search the man page descriptions for the word “permission” like this: ` man -k permission `  
 
 If you look at the output of this command, you will find a line that looks something like:  
-```chmod (1) - change file access permissions```  
+    ` chmod (1) - change file access permissions `  
 
-Now you know that “chmod” is the command you were looking for. Typing “man chmod” will show you the chmod command's manual page!
+Now you know that `chmod` is the command you were looking for. Typing `man chmod` will show you the chmod command's manual page!
 
