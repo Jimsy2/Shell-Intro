@@ -186,3 +186,9 @@ If you look at the output of this command, you will find a line that looks somet
 
 Now you know that `chmod` is the command you were looking for. Typing `man chmod` will show you the chmod command's manual page!
 
+### 2.3 Info Pages ###
+
+Some programs, particularly those released by the Free Software Foundation, use info pages as their main source of online documentation. Info pages are similar to man page, but instead of being displayed on one long scrolling screen, they are presented in shorter segments with links to other pieces of information. Info pages are accessed with the `info` command, or on some Linux distributions, `pinfo` (a nicer info browser).  
+    For example:  
+        ` info df`        Loads the “df” info page.  
+
