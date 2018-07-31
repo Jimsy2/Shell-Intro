@@ -50,7 +50,7 @@ The purpose of this document is to provide the reader with a fast and simple int
 the Linux command shell and some of its basic utilities. It is assumed that the reader has zero or 
 very limited exposure to the Linux command prompt. This document is designed to accompany an 
 instructor-led tutorial on this subject, and therefore some details have been left out. Explanations, 
-practical examples, and references to DOS commands are made, where appropriate.
+practical examples, and references to DOS <ins>(nowadays Windows Command Promt)</ins> commands are made, where appropriate <ins>(for the readers how are familiar with DOS)</ins>. 
 
 
 ### 1.1 What is a command shell? ###
@@ -231,3 +231,15 @@ The Linux filesystem is a tree-like hierarchy hierarchy of directories and files
 ## 3.2 Commands for Navigating the Linux Filesystems ##
 
 The first thing you usually want to do when learning about the Linux filesystem is take some time to look around and see what's there! These next few commands will: a) Tell you where you are, b) take you somewhere else, and c) show you what's there. The following table describes the basic operation of the `pwd`, `cd`, and `ls` commands, and compares them to certain DOS commands that you might already be familiar with.
+
+<dl><dd>
+  
+|<ins>BASH</ins><br>Command| DOS<br>Command | Description 
+|:------------:|:------------:|:------------
+|    `pwd`     |   `cd`       | "Print Working Directory" shows the current location in the directory tree.
+|    `cd`      | `cd`,`chdir` | "Change Directory", when typed all by itself, it returns you to your home directory.
+|   `cd ~`     |              | “~” is an alias for your home directory. It can be used as a shortcut to your “home”, or other directories relative to your home.
+|    `pwd`     |   `pwd`      | 
+
+</dd></dl>
+
