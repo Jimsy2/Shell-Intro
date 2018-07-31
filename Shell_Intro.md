@@ -151,9 +151,8 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
 
  * Commands can be run by themselves, or you can pass in additional arguments to make them do 
    different things. Typical command syntax can look something like this:  
-   ` command [-argument] [-argument] [--argument] [file]`
-    
-    Examples:  
+   ` command [-argument] [-argument] [--argument] [file]`  
+    Examples:  
         ` ls              ` List files in current directory  
         ` ls -l           ` Lists files in “long” format  
         ` ls -l --color   ` As above, with colourized output  
@@ -170,9 +169,7 @@ When you're stuck and need help with a Linux command, help is usually only a few
 
 ### 2.1 Using a Command's Built-In Help ###
 
-Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`.  
-    Example:  
-        ` grep --help`
+Many commands have simple “help” screens that can be invoked with special command flags. These flags usually look like `-h` or `--help`. Example: ` grep --help `
 
 ### 2.2 Online Manuals: “Man Pages” ###
 
