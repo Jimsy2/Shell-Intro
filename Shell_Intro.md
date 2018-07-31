@@ -174,8 +174,8 @@ Many commands have simple “help” screens that can be invoked with special co
 
 The best source of information for most commands can be found in the online manual pages, known as “man pages” for short. To read a command's man page, type `man command`.  
     Examples:  
-        ` man ls`        Get help on the “ls” command.  
-        ` man man`       A manual about how to use the manual!  
+        ` man ls `        Get help on the “ls” command.  
+        ` man man `       A manual about how to use the manual!  
 
 To search for a particular word within a man page, type `/`"word”. To quit from a man page, just type the `Q` key.
 
@@ -192,3 +192,8 @@ Some programs, particularly those released by the Free Software Foundation, use 
     For example:  
         ` info df`        Loads the “df” info page.  
 
+
+3.0 Navigating the Linux Filesystem
+-----------------------------------
+
+The Linux filesystem is a tree-like hierarchy hierarchy of directories and files. At the base of the filesystem is the “/” directory, otherwise known as the “root” (not to be confused with the root user). Unlike DOS or Windows filesystems that have multiple “roots”, one for each disk drive, the Linux filesystem mounts all disks somewhere underneath the / filesystem. The following table describes many of the most common Linux directories.
