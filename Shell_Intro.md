@@ -205,26 +205,26 @@ The Linux filesystem is a tree-like hierarchy hierarchy of directories and files
 |  Directory   | Description 
 |:------------:|:------------
 |     `/`      | The nameless base of the filesystem. All other directories, files, drives, and devices are attached to this root. Commonly (but incorrectly) referred to as the “slash” or “/” directory. The “/” is just a directory separator, not a directory itself.
-|    `/bin`    | Essential command binaries (programs) are stored here (bash, ls, mount, tar, etc.)
+|    `/bin`    | Essential command binaries (programs) are stored here (`bash`, `ls`, `mount`, `tar`, ...).
 |   `/boot`    | Static files of the boot loader.
 |    `/dev`    | Device files. In Linux, hardware devices are acceessd just like other files, and they are kept under this directory.
 |    `/etc`    | Host-specific system configuration files.
-|   `/home`    | 
-|    `/lib`    | 
-|   `/proc`    | 
-|   `/root`    | 
-|   `/sbin`    | 
-|    `/tmp`    | 
-|    `/usr`    | 
-|  `/usr/bin`  | 
+|   `/home`    | Location of users' personal home directories (e.g. `/home/susan`).
+|    `/lib`    | Essential shared libraries and kernel modules.
+|   `/proc`    | Process information pseudo-filesystem. An interface to kernel data structures.
+|   `/root`    | The root (superuser) home directory.
+|   `/sbin`    | Essential system binaries (`fdisk`, `fsck`, `init`, ...).
+|    `/tmp`    | Temporary files. All users have permission to place temporary files here.
+|    `/usr`    | The base directory for most shareable, read-only data (programs, libraries, documentation, and much more).
+|  `/usr/bin`  | Most user programs are kept here (`cc`, `find`, `du`, ...).
 |`/usr/include`| Header files for compiling C programs.
-|  `/usr/lib`  | 
-| `/usr/local` | 
-| `/usr/sbin`  | 
-|`/usr/share`  | 
-|  `/usr/src`  | 
-| `/usr/X11R6` | 
-|    `/var`    | 
+|  `/usr/lib`  | Libraries for most binary programs.
+| `/usr/local` | “Locally” installed files. This directory only really matters in environments where files are stored on the network. Locally-installed files go in `/usr/local/bin`, `/usr/local/lib`, ...). Also often used for software packages installed from source, or software not officially shipped with the distribution.
+| `/usr/sbin`  | Non-vital system binaries (`lpd`, `useradd`, ...)
+|`/usr/share`  | Architecture-independent data (icons, backgrounds, documentation, terminfo, man pages, etc.).
+|  `/usr/src`  | Program source code. E.g. The Linux Kernel, source RPMs, etc.
+| `/usr/X11R6` | The X Window System.
+|    `/var`    | Variable data: mail and printer spools, log files, lock files, ...
 
 </dd></dl>
 
