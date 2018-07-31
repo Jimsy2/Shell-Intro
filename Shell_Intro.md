@@ -141,8 +141,7 @@ operations, or, c) must be "escaped" if you want to use them in a normal way.
    ` /bin, /usr/bin, /usr/X11R6/bin`, and others.
  * To execute commands that are not in your current PATH, you have to give the complete 
    location of the command.  
-   
-   Examples:  
+       Examples:  
         ` /home/bob/myprogram`  
         ` ./program (Execute a program in the current directory)`  
         ` ~/bin/program (Execute program from a personal bin directory)`
