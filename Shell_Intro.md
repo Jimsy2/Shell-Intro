@@ -228,3 +228,6 @@ The Linux filesystem is a tree-like hierarchy hierarchy of directories and files
 
 </dd></dl>
 
+## 3.2 Commands for Navigating the Linux Filesystems ##
+
+The first thing you usually want to do when learning about the Linux filesystem is take some time to look around and see what's there! These next few commands will: a) Tell you where you are, b) take you somewhere else, and c) show you what's there. The following table describes the basic operation of the `pwd`, `cd`, and `ls` commands, and compares them to certain DOS commands that you might already be familiar with.
