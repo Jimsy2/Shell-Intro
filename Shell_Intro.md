@@ -10,7 +10,7 @@ An Introduction to the Linux Command Shell for Beginners
     <dd>The Ottawa Canada Linux Users Group  </dd>
   <dt>and  </dt>
     <dd>ExitCertified  </dd>
-  <dt><ins>Markdown formatted version by</ins>  </dt>
+  <dt><ins>Markdown formatted version with minor changes by</ins>  </dt>
     <dd><ins>Dirk Eismann, 2018-07-28</ins></dd>
 </dl>
 
